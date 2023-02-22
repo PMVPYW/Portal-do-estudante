@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <title>Página de teste</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-slate-100 dark:bg-slate-700 rounded-lg">
+    <div class="mx-auto my-auto place-items-center grid container h-screen">
+        <form action="" class="mx-auto my-auto bg-slate-200 dark:bg-slate-600 p-2 container text-center rounded-3xl">
+            <b><h1 class="dark:text-white">REGISTO</h1></b>
+            <input type="text" placeholder="Nome completo" name="nome" class="m-2 p-2 font-bold w-4/12 rounded-lg text-center bg-slate-300 dark:bg-slate-500 placeholder-black dark:placeholder-white text-black dark:text-white hover:placeholder-transparent hover:bg-slate-400 focus:placeholder-transparent focus:bg-slate-400 hover:shadow-md hover:shadow-slate-300">
+            <input type="number" min="1111111" max="9999999" placeholder="Nº aluno" name="student id" class="m-2 p-2 font-bold w-2/12 rounded-lg text-center bg-slate-300 dark:bg-slate-500 placeholder-black dark:placeholder-white text-black dark:text-white hover:placeholder-transparent hover:bg-slate-400 focus:placeholder-transparent focus:bg-slate-400 hover:shadow-md hover:shadow-slate-300">
+            <input type="password" placeholder="Password" name="password" class="p-2 m-2 font-bold w-2/12 rounded-lg text-center bg-slate-300 dark:bg-slate-500 placeholder-black dark:placeholder-white text-black dark:text-white hover:placeholder-transparent hover:bg-slate-400 focus:placeholder-transparent focus:bg-slate-400 hover:shadow-md hover:shadow-slate-300">
+            <br>
+            <input id="registar" type="button" value="Registar" name="m-2 submit" class="p-2 font-bold w-8/12 rounded-lg text-center bg-slate-300 dark:bg-slate-500 placeholder-black dark:placeholder-white text-black dark:text-white hover:placeholder-transparent hover:bg-slate-400 focus:bg-slate-400 hover:shadow-md hover:shadow-slate-300">      
+        </form>
+    </div>
+    <script>
+        document.getElementById("registar").onclick = function() {
+            window.location = "index.html";
+        }
+    </script>
+</body>
+</html>
