@@ -73,24 +73,32 @@
         </div>   
              
     </nav>
-    <div class="m-4 p-2 bg-slate-400 dark:bg-slate-500 rounded-lg mx-auto container grid grid-cols-8 dark:text-white font-bold text-center">
-        <div class="grid grid-cols-3">
-            <img id="userimg" src="user.png" alt="user image" style="height: 135px; width: 108;" class="rounded-lg">
-            <div class="col-end-3">
-                <div class="grid grid-rows-5">
-                    <h1>Perfil</h1>
-                    <h2>Escola Superior de Tecnologia e Gestão</h2>
-                    <h2>Estudante Nº 2210000</h2>
-                    <h2>Nome Completo</h2>
-                    <h2>[9119] Licenciatura em Engenharia Informática</h2>
+    <!--End of nav-->
+    <!--Begin of the rest of the page-->
+    <div class="m-4 p-2 bg-slate-400 dark:bg-slate-500 rounded-lg mx-auto container dark:text-white font-bold text-center">
+            <div class="grid grid-cols-2 w-1/4">
+                <img id="userimg" src="user.png" alt="user image" class="rounded-lg my-auto">
+                <div class="grid grid-rows-5 text-xs text-left pl-2">
+                    <p class="text-sm">Perfil</p>
+                    <p>ESTG</p>
+                    <p>Nº 2210000</p>
+                    <p>Nome Completo</p>
+                    <p>[9119] Licenciatura em Engenharia Informática</p>
                 </div>
             </div>
-            
+    </div>
+    <div class="m-4 p-2 bg-slate-400 dark:bg-slate-500 rounded-lg mx-auto container dark:text-white font-bold text-left">
+        <div class="mx-auto w-full">
+            <input type="button" value="Pesquisar" name="nome" class="m-2 p-2 text-center w-1/12 font-bold rounded-lg bg-slate-300 dark:bg-slate-600 placeholder-black dark:placeholder-white text-black dark:text-white hover:placeholder-transparent hover:bg-slate-400 focus:placeholder-transparent focus:bg-slate-400 hover:shadow-md hover:shadow-slate-300">
+            <input type="text" placeholder="Pesquisar serviços..." name="nome" class="m-2 p-2 font-bold w-10/12 rounded-lg text-left bg-slate-300 dark:bg-slate-600 placeholder-black dark:placeholder-white text-black dark:text-white hover:placeholder-transparent hover:bg-slate-400 focus:placeholder-transparent focus:bg-slate-400 hover:shadow-md hover:shadow-slate-300">
         </div>
     </div>
+
+    
+
     <script>
-        document.getElementById("userimg").width = 108
-        document.getElementById("userimg").height = 135
+        //document.getElementById("userimg").width = 108
+        //document.getElementById("userimg").height = 135
     </script>  
 </body>
 </html>
